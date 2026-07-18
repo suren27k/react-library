@@ -1,12 +1,13 @@
-import { Container } from "reactstrap";
+import { AppNavbar } from "./layouts/AppNavbar/AppNavbar";
+import { ExploreTopBooks } from "./layouts/HomePage/ExploreTopBooks";
+import "./App.css";
 
 function App() {
   return (
-    <Container className="vh-100 d-flex justify-content-center align-items-center">
-      <div>
-        <h1>React Library App</h1>
-      </div>
-    </Container>
+    <>
+      <AppNavbar />
+      <ExploreTopBooks />
+    </>
   );
 }
 
